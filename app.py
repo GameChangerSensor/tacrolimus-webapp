@@ -4,7 +4,7 @@ import joblib
 from tensorflow.keras.models import load_model
 
 # 모델 및 스케일러 로드
-model = load_model("model.keras")
+model = load_model("model.h5")
 scaler_X = joblib.load("scaler_X.pkl")
 scaler_y = joblib.load("scaler_y.pkl")
 
